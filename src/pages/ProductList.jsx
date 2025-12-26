@@ -1,10 +1,5 @@
-import React, { use, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { getAllProducts } from "../services/api";
-import PropTypes from 'prop-types';
-
-ProductList.propTypes = {
-    
-};
 
 function ProductList(props) {
     const [products, setProducts] = React.useState([]);
